@@ -1,0 +1,43 @@
+/* ~/.config/gtk-4.0/gtk.css — compact title bar and widgets */
+
+/* Title bar */
+headerbar {
+  min-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Everything inside it */
+headerbar button,
+headerbar entry,
+headerbar spinbutton,
+headerbar menubutton > button,
+headerbar splitbutton > button {
+  min-height: 0;
+  min-width: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Files (Nautilus) search field and other search bars */
+searchbar entry,
+searchbar button {
+  min-height: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* Ghostty tab bar and its new-tab button */
+tabbar .box {
+  min-height: 28px;
+}
+tabbar tab {
+  min-height: 24px;
+}
+tabbar button {
+  min-height: 0;
+  min-width: 0;
+  padding: 2px 6px;
+}
