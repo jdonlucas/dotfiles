@@ -48,24 +48,6 @@ Then enable it:
 If the original theme is ever updated or re-downloaded, it overwrites the
 edit, so re-copy from this repo afterwards.
 
-## 4. ArcMenu and Forge (GNOME extensions)
-
-Install both extensions first (Extension Manager or extensions.gnome.org), then:
-
-```bash
-dconf load /org/gnome/shell/extensions/arcmenu/ < ~/dotfiles/gnome/arcmenu.dconf
-dconf load /org/gnome/shell/extensions/forge/ < ~/dotfiles/gnome/forge.dconf
-```
-
-Forge custom CSS (if edited):
-
-```bash
-mkdir -p ~/.config/forge/stylesheet/forge
-cp ~/dotfiles/gnome/forge-stylesheet.css ~/.config/forge/stylesheet/forge/stylesheet.css
-```
-
-Log out and back in afterwards.
-
 ## Updating the repo
 
 ```bash
